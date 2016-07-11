@@ -1,28 +1,40 @@
-name: Connect 4 Compassion
-favicon: null
-layout_spectrum: 0.9408706047106534
-typography_spectrum: 0.3984625262673944
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.1895928292069584
-  lightness: 0.49747875006869435
-  saturation: 0.2681089183315635
-  rhythmicContrast: 0.07380249630659819
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.6234043
+  brandStrength: 0.1276596
+  lightness: 0.2829787
+  brandColors:
+    - '#B8C1C8'
+    - '#E0D8CD'
+    - '#958F83'
+    - '#6E6458'
+    - '#292D30'
+  rhythmicContrast: 0.5680851
+typography_spectrum: 0.4957447
+layout_spectrum: 0.9510638
+cta:
+  bucket: null
+  version: null
+  domain: null
+favicon: null
+name: Connect 4 Compassion
